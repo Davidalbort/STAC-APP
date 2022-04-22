@@ -1,0 +1,98 @@
+.App{
+    font-size: 1.6rem;
+    .image{
+        padding: 2rem;
+    }
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+    color: #555;
+
+  
+    input[type="radio"] {
+      display: none;
+  
+      &:checked + label{
+        color: #18A75C;
+      }
+    }
+      
+    label {
+      color: #555;
+      text-transform: capitalize;
+      border: solid 2px;
+      border-radius: 45px;
+      padding: 12px;
+  
+      &:hover {
+        
+        cursor: pointer;
+        color: #18A75C
+      }
+    }
+  
+  }
+
+.container-search {
+
+  display: flex;
+  justify-content: center;
+  input {
+
+    width: clamp(290px, 50vw, 800px);
+    border: solid 3px #18A75C;
+    border-radius: 30px;
+    padding: 7px 14px;
+    background-color: blue;
+    box-shadow: 0px 6px 11px blue;
+    
+
+    &::placeholder {
+      text-transform: capitalize;
+      text-align: center;
+    }
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.829);
+    }
+
+    &.error {
+      border: solid 3px #18A75C;
+    }
+
+  }
+  
+}
+
+
+.container-section{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+  margin: 0 6rem;
+  grid-row-gap: 4rem;
+  row-gap: 4.2rem;
+}
+.image-container{
+  font-size: clamp(1rem,5vw,1.2rem);
+  padding: 0 2rem;
+  img{
+    border: solid 0.1rem black;
+    border-radius: 1rem;
+
+  
+  }
+  h1{
+    width: clamp(20rem, 18vw, 30rem);
+    // margin: auto;
+  }
+}
+
+
