@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/stac-app/static/css/main.a80238ac.css",
+    "main.js": "/stac-app/static/js/main.d2ad2590.js",
+    "static/js/787.9eca8acd.chunk.js": "/stac-app/static/js/787.9eca8acd.chunk.js",
+    "static/media/logo.png": "/stac-app/static/media/logo.1fff4edb81be5e104a46.png",
+    "index.html": "/stac-app/index.html",
+    "main.a80238ac.css.map": "/stac-app/static/css/main.a80238ac.css.map",
+    "main.d2ad2590.js.map": "/stac-app/static/js/main.d2ad2590.js.map",
+    "787.9eca8acd.chunk.js.map": "/stac-app/static/js/787.9eca8acd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a80238ac.css",
+    "static/js/main.d2ad2590.js"
+  ]
+}
